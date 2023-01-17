@@ -158,6 +158,36 @@ html {
 }
 
 /*CTA section*/
+.cta {
+    padding: 100px;
+}
 
+.blue-container {
+    background-color: #3882f6;
+    padding: 50px 100px;
+    border-radius: 5px;
+    color: #f9faf8;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.blue-title {
+    font-weight: bold;
+}
+
+.blue-subtext {
+    font-weight: lighter;
+}
+
+.cta-button {
+    border: 1px solid white
+}
 
 /*Footer section*/
+.footer {
+    padding: 25px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
