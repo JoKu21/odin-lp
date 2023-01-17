@@ -91,10 +91,71 @@ html {
 }
 
 /*Information section*/
+.information {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 100px;
+    gap: 30px;
+}
 
+.information-title-text {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+}
+
+.information-cards {
+    display: flex;
+    gap: 50px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+.card {
+    width: 150px;
+}
+
+.card-logo {
+    height: 150px;
+    width: 150px;
+    border: 3px solid #3882f6;
+    border-radius: 15px;
+}
+
+.card-subtext {
+    text-align: center;
+    color: #1F2937;
+    font-weight: light;
+}
 
 /*Quote section*/
+.quote {
+    background-color: #e5e7eb;
+    padding: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 
+.quote-section {
+    display: flex;
+    flex-direction: column;
+    width: 780px;
+}
+
+.quote-text {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    color: #1F2937;
+}
+
+.quote-author {
+    align-self: flex-end;
+    font-weight: bold;
+}
 
 /*CTA section*/
 
